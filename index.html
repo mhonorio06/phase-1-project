@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        
+        <title> Phase-1 Project </title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+     <header id="menu">
+      <h1> Classic Collectibles</h1>
+      <ul class="menu">
+        <li> Home </li>
+        <li> About </li>
+        <li> Contact Us </li>
+      </ul>
+     </header><br>
+     <div class="container">
+      <form id="collection-form">
+        <label for="name"> <strong>Name</strong></label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="name"> <strong>Image URL</strong></label><br>
+        <input type="text" id="image_url" name="image_url"><br>
+        <label for="price"> <strong>Price</strong></label><br>
+        <input type="text" id="price" name="price"><br>
+        <label for="description"><strong>Description</strong> </label><br>
+        <textarea id="description" name="description" rows="10" cols="40"></textarea><br>
+        <button type="submit"><strong>CREATE NEW COLLECTIBLE</strong></button>
+      </form>
+      <ul id="collection-container" class="cards">
+        <!--collection here -->
+      </ul>
+    
+     </div>
+    
+    <script src="index.js"></script>
+    </body>
+    
+    </html>
